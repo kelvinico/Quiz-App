@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Simple Quiz App</h1>
+    
+    <!-- Progress Bar -->
+    <div class="progress-container">
+      <div id="progress-bar"></div>
+    </div>
+
+    <div id="quiz">
+      <p class="question" id="question"></p>
+      <ul class="options" id="options"></ul>
+    </div>
+
+    <button class="btn" id="next-btn" onclick="nextQuestion()">Next Question</button>
+    <p id="result" style="font-weight: bold; margin-top: 1rem;"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
