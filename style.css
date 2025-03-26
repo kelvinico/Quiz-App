@@ -132,7 +132,7 @@ body {
     width: 0.5px;  /* Adjust width */
     height: 0.5rem; /* Adjust height */
     border-radius: 50%; /* Keeps it circular */
-    background-image: url('Images/folio.jpg'); /* Ensure correct path */
+    background-image: url('images/folio.jpg'); /* Ensure correct path */
     background-size: cover;
     background-position: center;
     margin: 0 auto 10px;
@@ -323,9 +323,9 @@ body {
 }
 
 /* Add initial background images */
-#service1 { background-image: url('card.img/Izunna.jpeg'); }
-#service2 { background-image: url('card.img/place.image.jpg'); }
-#service3 { background-image: url('card.img/game.webp'); }
+#service1 { background-image: url('images/game.webp'); }
+#service2 { background-image: url('images/Izunna.jpeg'); }
+#service3 { background-image: url('images/place.image.jpg'); }
 
 /* Hover Effect */
 .service-box:hover {
